@@ -1,0 +1,126 @@
+body{
+
+}
+
+footer {
+
+}
+
+#background {
+	opacity: 0.7;
+}
+
+/*Avatar Box*/
+#avatar-frame {
+	position: absolute;
+	float: right;
+	width: 130;
+	height: 130;
+	background: white;
+	border: 3px solid #123456;
+	transform: translate(-50%, -25%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Navigation Bar*/
+#navBar {
+	float: left;
+	opacity: 100%;
+	width: 90%;
+	height: 60px;
+	transform: translate(-10px, -5px);
+	border: 1px solid #123456;
+	/*background: linear-gradient(black, white);*/
+}
+
+#navBar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#navBar li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+#navBar li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px 12px;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+#navBar li a:hover {
+	background-color: #111;
+}
+
+#main-box {
+    width: 1000px;
+    height: 600px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #123456;
+	background:white;
+	border-radius: 25px;
+	position: fixed;
+	opacity: 100%;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#copyright {
+	text-align: center;
+	float: bottom;
+}
+
+#stat-box {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#avatar-frame:hover #stat-box {
+    display: block;
+}
+
+#stat-box {
+	
+}
+
+#UIinnerbox {
+	
+}
+
+#account-settings{
+	position:absolute;
+	z-index: 10;
+	width: 500;
+	height: 500;
+	border: 1px solid #123456;
+}
+
+/*Main UI Box*/
+#world-map {
+	position:relative;
+	float: left;
+	right: -47;
+	bottom: -60;
+	width: 900;
+	height: 400;
+	background: white;
+	border: 1px solid #123456;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}

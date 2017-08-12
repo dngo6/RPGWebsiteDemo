@@ -1,0 +1,10 @@
+[Password]
+blah
+image.jpg
+[Character Stats]
+10
+10
+10
+10
+10
+10
