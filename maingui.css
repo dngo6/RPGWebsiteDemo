@@ -67,7 +67,7 @@ footer {
 	background:white;
 	border-radius: 25px;
 	position: fixed;
-	opacity: 100%;
+	opacity: 0.8;
  	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
@@ -85,6 +85,7 @@ footer {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+	line-height: 30px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -92,12 +93,17 @@ footer {
     display: block;
 }
 
-#stat-box {
+#UIinnerbox {
 	
 }
 
-#UIinnerbox {
-	
+.destination{
+	position: relative;
+	z-index: 3;
+}
+
+.destination:hover{
+	opacity: 0.8;
 }
 
 #account-settings{
@@ -106,6 +112,11 @@ footer {
 	width: 500;
 	height: 500;
 	border: 1px solid #123456;
+}
+
+.map {
+	z-index: 1;
+	opacity: 1.0;
 }
 
 /*Main UI Box*/

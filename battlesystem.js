@@ -71,8 +71,12 @@ function setUpCharacter(character){
 	document.getElementById("username").innerHTML = character.name;
 }
 
-function showStats(){
-	
+function showStats(character){
+	document.getElementById("stat-box").innerHTML =
+		"Level: " + character.level + "<br>" +
+		"HP: " + character.HP + "/" + character.maxHP + "<br>" +
+		"ATK: " + character.ATK + "<br>" +
+		"DEF: " + character.DEF;
 }
 
 function updateStats(){

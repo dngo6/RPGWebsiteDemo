@@ -1,0 +1,18 @@
+Giant Rat
+10
+3
+2
+4
+bites you with its fangs.
+Ogre
+20
+7
+3
+2
+slams you to the ground.
+Osvaldo
+300
+80
+32
+20
+hits you with a traffic jam.
